@@ -10,7 +10,7 @@ import {
   TypingIndicator,
 } from "@chatscope/chat-ui-kit-react";
 
-const API_KEY = "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";
+const API_KEY = import.meta.env.VITE_GPT_KEY;
 
 function App() {
   const [typing, setTyping] = useState(false);
